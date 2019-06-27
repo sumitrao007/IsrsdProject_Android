@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">iSRSD</string>
+    <string name="LoginId">Login Id</string>
+    <string name="Password">Password</string>
+    <string name="ToolbatTitle">iSRSD</string>
+
+    <!--Home Screen String-->
+    <string name="isrsdtext">Innovation Eagle</string>
+    <string name="aboutus">About Us</string>
+    <string name="services_solutions">Services\n&amp; Solutions</string>
+    <string name="training">Training</string>
+    <string name="branches">Branches</string>
+    <string name="contactus">Contact Us</string>
+    <string name="faq">FAQ</string>
+
+
+    <string name="navigation_drawer_open">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close">Navigation Drawer Close</string>
+
+    <!--Training-->
+
+    <string name="modularcourse">Modular courses</string>
+    <string name="joborientated">Job oriented</string>
+    <string name="internship">Internship</string>
+    <string name="advcoursces">Advanced Courses</string>
+    <string name="learndev">Learning &amp; Development</string>
+
+    <string name="clang">C Language</string>
+    <string name="cplus">C++</string>
+    <string name="corejava">Core Java</string>
+    <string name="advancedjava">Advanced Java</string>
+    <string name="android">Android</string>
+    <string name="dotnet">Dot Net</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="nameenter">Enter the Name</string>
+    <string name="emailidenter">Enter the Email ID</string>
+    <string name="mobilenoenter">Enter the Mobile Number</string>
+    <string name="descript">Enter the Description</string>
+    <string name="submit">Submit</string>
+    <string name="mailus">Mail Us</string>
+    <string name="callus">Call Us</string>
+    <string name="walking">Walking</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgcolor">#004E84</color>
+    <color name="lightGrey">#EEEEEE</color>
+    <color name="txt_color">#7E7E7E</color>
+    <color name="lightyellow">#FFF8DC</color>
+    <color name="Blue_light">#e3f5f7</color>
+    <color name="florescent">#f7fcf8</color>
+    <color name="mygray">#B9B9B9</color>
+    <color name="mydarkpink">#fd0065</color>
+    <color name="mydarkblue">#5E6AC0</color>
+    <color name="mydarkblue1">#649BD3</color>
+    <color name="advcolor">#5684A5</color>
+    <color name="corejava">#D03438</color>
+    <color name="SkyBlueShade">#00c0ef</color>
+    <color name="greenShade">#00a65a</color>
+    <color name="greennewShade">#309c8e</color>
+
+
+</resources>

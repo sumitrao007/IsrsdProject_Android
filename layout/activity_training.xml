@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Training">
+
+    <include
+        android:id="@+id/inc_toolbar"
+        layout="@layout/layout_header" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/linear_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_text_border_florescent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_modularcourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:innerRadius="5dp"
+                app:cardBackgroundColor="@color/Blue_light"
+                app:cardPreventCornerOverlap="false"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="10dp"
+                card_view:cardMaxElevation="10dp"
+                card_view:contentPadding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/modularcourse"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_joboriented"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:innerRadius="5dp"
+                app:cardBackgroundColor="@color/Blue_light"
+                app:cardPreventCornerOverlap="false"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="10dp"
+                card_view:cardMaxElevation="10dp"
+                card_view:contentPadding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/joborientated"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_AdvCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:innerRadius="5dp"
+                app:cardBackgroundColor="@color/Blue_light"
+                app:cardPreventCornerOverlap="false"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="10dp"
+                card_view:cardMaxElevation="10dp"
+                card_view:contentPadding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/advcoursces"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_learndev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:innerRadius="5dp"
+                app:cardBackgroundColor="@color/Blue_light"
+                app:cardPreventCornerOverlap="false"
+                card_view:cardCornerRadius="25dp"
+                card_view:cardElevation="10dp"
+                card_view:cardMaxElevation="10dp"
+                card_view:contentPadding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/learndev"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
